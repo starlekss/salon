@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Лилия Спа | Салон красоты</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Хедер (навигация) -->
+    <header class="main-header" id="mainHeader">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#home">LILIA<span>SPA</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Главная</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран (Hero) с полупрозрачным фоном -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Преображение начинается здесь</span>
+                <h1 class="hero-title">Салон красоты <br> «Лилия Спа»</h1>
+                <p class="hero-desc">Уход, стиль и гармония в центре вашего города. Профессиональные мастера, лучшие материалы и душевная атмосфера.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Записаться онлайн</a>
+                    <a href="#services" class="btn btn-outline-light">Наши услуги</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">лет опыта</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1200+</span>
+                        <span class="stat-label">счастливых клиентов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">мастеров</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-decor">
+                <div class="floating-elem"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">что мы предлагаем</span>
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc">Забота о вашей красоте — наш главный приоритет. Только проверенные техники и премиальная косметика.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Стрижки и укладки</h3>
+                    <p>Модные женские, мужские и детские стрижки. Кератиновое выпрямление, прически на любой случай.</p>
+                    <span class="service-price">от 1500 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Окрашивание</h3>
+                    <p>Балаяж, шатуш, AirTouch, мелирование. Бережное окрашивание без повреждения волос.</p>
+                    <span class="service-price">от 2500 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-spa"></i></div>
+                    <h3>Уход за волосами</h3>
+                    <p>Ботокс, ламинирование, скрабирование кожи головы. Восстановление после химии.</p>
+                    <span class="service-price">от 1800 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hand-sparkles"></i></div>
+                    <h3>Маникюр и педикюр</h3>
+                    <p>Классический, аппаратный, дизайн ногтей, SPA-педикюр. Высокая стойкость покрытия.</p>
+                    <span class="service-price">от 1200 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-face-smile"></i></div>
+                    <h3>Косметология</h3>
+                    <p>Чистка лица, уходовые процедуры, массаж, пилинги. Индивидуальные протоколы.</p>
+                    <span class="service-price">от 2000 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-feather"></i></div>
+                    <h3>Макияж и брови</h3>
+                    <p>Дневной, вечерний макияж, коррекция бровей, ламинирование и окрашивание.</p>
+                    <span class="service-price">от 1500 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас / Особенности -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="images/salon-interior.jpg" alt="Салон красоты интерьер" loading="lazy">
+                <div class="about-experience-badge">с 2019</div>
+            </div>
+            <div class="about-content">
+                <span class="section-subtitle">о салоне</span>
+                <h2 class="section-title left-align">Ваша красота — наше вдохновение</h2>
+                <p>«Лилия Спа» — это пространство, где создают настроение и подчеркивают индивидуальность. Мы используем только премиальную косметику и стерильные инструменты.</p>
+                <div class="features-list">
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> 100% гарантия качества</div>
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> Безопасные материалы</div>
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> Индивидуальный подход</div>
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> Уютная, расслабляющая обстановка</div>
+                </div>
+                <a href="#contact" class="btn btn-secondary">Связаться с нами →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">наши работы</span>
+                <h2 class="section-title">Галерея преображений</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery-haircut.jpg" alt="Стрижка">
+                    <div class="gallery-overlay"><span>Стильная стрижка</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-manicure.jpg" alt="Маникюр">
+                    <div class="gallery-overlay"><span>Дизайн ногтей</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-haircolor.jpg" alt="Окрашивание">
+                    <div class="gallery-overlay"><span>Окрашивание</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-spa.jpg" alt="Уход">
+                    <div class="gallery-overlay"><span>СПА уход</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты и форма записи -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-wrapper">
+            <div class="contact-info">
+                <span class="section-subtitle">контакты</span>
+                <h2 class="section-title left-align">Запишитесь <br>на удобное время</h2>
+                <p>Мы перезвоним, чтобы подтвердить запись и ответить на вопросы.</p>
+                <ul class="contact-details-list">
+                    <li><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Цветной бульвар, 15</li>
+                    <li><i class="fas fa-phone-alt"></i> +7 (495) 123-45-67</li>
+                    <li><i class="fab fa-telegram-plane"></i> @lilia_spa_salon</li>
+                    <li><i class="far fa-clock"></i> Ежедневно 10:00 – 21:00</li>
+                </ul>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-form-card">
+                <h3>Онлайн-запись</h3>
+                <form id="appointmentForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="serviceSelect">
+                            <option value="">Выберите услугу</option>
+                            <option>Стрижка и укладка</option>
+                            <option>Окрашивание</option>
+                            <option>Маникюр/Педикюр</option>
+                            <option>Косметология</option>
+                            <option>Макияж/Брови</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="dateInput">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Отправить заявку</button>
+                    <p class="form-note">Нажимая на кнопку, вы соглашаетесь с политикой обработки данных</p>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="logo">LILIA<span>SPA</span></div>
+                <p>Салон красоты премиум-класса с душой. Заботимся о вашей красоте с 2019 года.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Навигация</h4>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                </ul>
+            </div>
+            <div class="footer-hours">
+                <h4>Режим работы</h4>
+                <p>Пн-Пт: 10:00 – 21:00</p>
+                <p>Сб-Вс: 10:00 – 20:00</p>
+            </div>
+            <div class="footer-subscribe">
+                <h4>Будьте в курсе</h4>
+                <p>Акции и новости первыми</p>
+                <div class="subscribe-group">
+                    <input type="email" placeholder="Ваш e-mail">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Салон красоты «Лилия Спа». Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
